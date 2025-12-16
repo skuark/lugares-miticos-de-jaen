@@ -1,0 +1,46 @@
+[
+  {
+    "name": "Naturaleza",
+    "slug": "naturaleza"
+  },
+  {
+    "name": "Patrimonio monumental",
+    "slug": "patrimonio-monumental"
+  },
+  {
+    "name": "Negocio tradicional",
+    "slug": "negocio-tradicional"
+  },
+  {
+    "name": "Los Íberos",
+    "slug": "los-iberos"
+  },
+  {
+    "name": "Parque Natural de las Sierras de Cazorla, Segura y Las Villas",
+    "slug": "parque-natural-sierras-cazorla-segura-villas"
+  },
+  {
+    "name": "Parque Natural de Sierra Mágina",
+    "slug": "parque-natural-sierra-magina"
+  },
+  {
+    "name": "Sierra Sur",
+    "slug": "sierra-sur"
+  },
+  {
+    "name": "Castillos y Fortalezas",
+    "slug": "castillos-y-fortalezas"
+  },
+  {
+    "name": "Parque Natural de Despeñaperros",
+    "slug": "parque-natural-despenaperros"
+  },
+  {
+    "name": "Parque Natural Sierra de Andujar",
+    "slug": "parque-natural-sierra-andujar"
+  },
+  {
+    "name": "Oficios tradicionales",
+    "slug": "oficios-tradicionales"
+  }
+]

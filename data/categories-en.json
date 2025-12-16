@@ -1,0 +1,46 @@
+[
+  {
+    "name": "Nature",
+    "slug": "nature"
+  },
+  {
+    "name": "Monuments",
+    "slug": "monuments"
+  },
+  {
+    "name": "Traditional Business",
+    "slug": "traditional-business"
+  },
+  {
+    "name": "Iberians",
+    "slug": "iberians"
+  },
+  {
+    "name": "Sierras de Cazorla, Segura y Las Villas Natural Park",
+    "slug": "sierras-cazorla-segura-villas-natural-park"
+  },
+  {
+    "name": "Sierra Mágina Natural Park",
+    "slug": "sierra-magina-natural-park"
+  },
+  {
+    "name": "Sierra Sur",
+    "slug": "sierra-sur"
+  },
+  {
+    "name": "Castles and Fortresses",
+    "slug": "castles-and-fortresses"
+  },
+  {
+    "name": "Despeñaperros Natural Park",
+    "slug": "despenaperros-natural-park"
+  },
+  {
+    "name": "Sierra de Andujar Natural Park",
+    "slug": "sierra-andujar-natural-park"
+  },
+  {
+    "name": "Crafts",
+    "slug": "crafts"
+  }
+]
