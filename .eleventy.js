@@ -37,6 +37,7 @@ export default function(eleventyConfig) {
   eleventyConfig.ignores.add("content");
 
   eleventyConfig.addPassthroughCopy("css");
+  eleventyConfig.addPassthroughCopy("js");
 
   return {
     dir: {
