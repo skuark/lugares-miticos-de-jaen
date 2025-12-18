@@ -2,11 +2,11 @@
   <article class="article-teaser">
     <a href="/{{ locale }}/articles/{{ article.slug }}">
       <div
-        class="responsive-image responsive-image--half"
+        class="responsive-image"
         role="img"
         aria-label="{{ article.title }}"
         style="
-          --img-mobile: url('{% featured_image article, 'big_teaser_mobile' %}');
+          --img-mobile: url('{% featured_image article, 'teaser_mobile' %}');
           --img-tablet: url('{% featured_image article, 'big_teaser_tablet' %}');
           --img-desktop: url('{% featured_image article, 'big_teaser_desktop' %}');
           --img-desktop-hd: url('{% featured_image article, 'big_teaser_desktop_hd' %}');
