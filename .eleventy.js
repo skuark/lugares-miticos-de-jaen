@@ -46,6 +46,14 @@ export default function(eleventyConfig) {
     return allRegions.find(r => r.name === regionName);
   });
 
+  eleventyConfig.addFilter("getCategories", (categoryNames, allCategories) => {
+    if (!categoryNames || !allCategories) return [];
+    const categoryMap = new Map(allCategories.map(cat => [cat.name, cat]));
+    return categoryNames
+      .map(name => categoryMap.get(name))
+      .filter(Boolean);
+  });
+
   eleventyConfig.addShortcode("featured_image", function(article, size) {
     const featuredMedia = article.media?.find(m => m.featured && m.type === "Photo");
     if (!featuredMedia || !featuredMedia.image_urls) {

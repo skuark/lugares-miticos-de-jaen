@@ -16,6 +16,7 @@
     <h2 class="article-teaser--title"><a href="/{{ locale }}/articles/{{ article.slug }}">{{ article.title }}</a></h2>
     {% include "partials/article-date.njk" %}
     {% include "partials/article-location.njk" %}
+    {% include "partials/article-category.njk" %}
     <p>
       <span class="article-teaser--summary">{{ article.summary | safe }}</span>
       <a class="article-teaser--read-more" href="/{{ locale }}/articles/{{ article.slug }}">{{ readMoreText }}</a>
