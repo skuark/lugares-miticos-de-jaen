@@ -17,7 +17,12 @@
           <a href="/{{ locale }}/">{{ i18n[locale].siteTitle }}</a>
         </h1>
       </div>
-      <nav class="header-nav">
+      <button class="header-hamburger" id="hamburger-menu" aria-label="Toggle navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <nav class="header-nav" id="header-nav">
         <a href="/{{ locale }}/">{{ i18n[locale].nav.home }}</a>
         <a href="/{{ locale }}/articles/">{{ i18n[locale].nav.articles }}</a>
       </nav>
