@@ -138,6 +138,7 @@ table {
 
 :root {
   --color-primary: rgba(66, 55, 128, 1);
+  --color-primary-75: rgba(66, 55, 128, 0.75);
 }
 
 /* Global Styles */
@@ -300,7 +301,59 @@ a:hover {
   padding-top: 6rem;
 }
 
+/* Home Page */
+
+.home-section {
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.home-section-title {
+  color: var(--color-primary);
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+
+.home-section-separator {
+  height: 1px;
+  background-image: linear-gradient(to right, #fff, var(--color-primary-75), #fff);
+  margin: 2rem 0;
+}
+
+/* Pages */
+
+.page-header {
+  margin-bottom: 2rem;
+}
+
+.page-title {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
 /* Article Page */
+
+@media (min-width: 1280px) {
+  .article {
+    position: relative;
+  }
+
+  .article-intro {
+    position: absolute;
+    top: 12rem;
+    left: 12rem;
+    right: 12rem;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    z-index: 1;
+  }
+
+  .article-intro--hidden {
+    opacity: 0;
+    pointer-events: none;
+    transform: translateY(-20px);
+  }
+}
 
 .article-header {
   border-bottom: 1px solid #eee;
@@ -313,6 +366,12 @@ a:hover {
   font-weight: bold;
   margin-bottom: 0;
   text-transform: uppercase;
+}
+
+@media (min-width: 1280px) {
+  .article-title {
+    color: #ddd;
+  }
 }
 
 .article-date {
@@ -336,7 +395,12 @@ a:hover {
 .article-body {
   margin-bottom: 4rem;
   font-size: 1.1rem;
-  max-width: 800px;
+}
+
+@media (min-width: 1280px) {
+  .article-body {
+    color: #ddd;
+  }
 }
 
 .article-body li {
@@ -345,6 +409,25 @@ a:hover {
 
 .article-gallery--media {
   margin-bottom: 2rem;
+}
+
+@media (min-width: 1280px) {
+  .article-gallery--media:first-child {
+    filter: brightness(0.2);
+    transition: filter 0.3s ease;
+  }
+
+  .article-gallery--media:first-child .responsive-image {
+    background-size: cover;
+  }
+
+  .article-intro--hidden+.article-gallery .article-gallery--media:first-child {
+    filter: brightness(1);
+  }
+
+  .article-intro--hidden+.article-gallery .article-gallery--media:first-child .responsive-image {
+    background-size: contain;
+  }
 }
 
 /* Responsive Images */
@@ -436,6 +519,9 @@ a:hover {
 .article-card--image {
   aspect-ratio: 4 / 3;
   padding-top: 0;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .article-card--content {
