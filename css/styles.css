@@ -300,6 +300,17 @@ a:hover {
   padding-top: 6rem;
 }
 
+/* Pages */
+
+.page-header {
+  margin-bottom: 2rem;
+}
+
+.page-title {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
 /* Article Page */
 
 .article-header {

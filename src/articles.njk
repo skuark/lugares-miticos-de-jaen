@@ -10,6 +10,10 @@ eleventyComputed:
   locale: "{{ indexPage.locale }}"
 ---
 
+<div class="page-header">
+  <h1 class="page-title">{{ i18n[indexPage.locale].all_articles }}</h1>
+</div>
+
 {% set articles = indexPage.articles %}
 {% set pagination = indexPage.pagination %}
 {% include "partials/article-grid.njk" %}
