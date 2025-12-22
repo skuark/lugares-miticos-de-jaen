@@ -113,6 +113,25 @@
           attributeFilter: ['style']
         });
       }
+
+      // Auto-hide dots: show when cursor is near right side or on dots
+      let hideTimeout;
+      const showDots = () => {
+        navContainer.classList.add('visible');
+        clearTimeout(hideTimeout);
+        hideTimeout = setTimeout(() => {
+          navContainer.classList.remove('visible');
+        }, 2000);
+      };
+
+      document.addEventListener('mousemove', (e) => {
+        const distanceFromRight = window.innerWidth - e.clientX;
+        if (distanceFromRight < 150) {
+          showDots();
+        }
+      });
+
+      navContainer.addEventListener('mouseenter', showDots);
     }
 
     let isScrolling = false;

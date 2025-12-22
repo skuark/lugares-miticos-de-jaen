@@ -498,6 +498,7 @@ a:hover {
     text-shadow: 0 1px 5px rgba(0, 0, 0, 0.5);
   }
 
+  /* Slide navigation dots */
   .slides-nav {
     position: fixed;
     right: 2rem;
@@ -507,6 +508,14 @@ a:hover {
     display: flex;
     flex-direction: column;
     gap: 0.75rem;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    pointer-events: none;
+  }
+
+  .slides-nav.visible {
+    opacity: 1;
+    pointer-events: auto;
   }
 
   .slides-nav-dot {
