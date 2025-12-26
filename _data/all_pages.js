@@ -37,13 +37,15 @@ export const all_localities = [
     entities: regions.flatMap(r => r.localities.map(l => ({ ...l, region: { name: r.name, slug: r.slug } }))),
     articles: articles.en,
     filterFn: (a, l) => a.localities?.includes(l.name),
-    entityKey: 'locality', pathPrefix: 'localities', locale: 'en'
+    entityKey: 'locality', pathPrefix: 'localities', locale: 'en',
+    includeEmpty: true
   }),
   ...generatePaginatedPages({
     entities: regions.flatMap(r => r.localities.map(l => ({ ...l, region: { name: r.name, slug: r.slug } }))),
     articles: articles.es,
     filterFn: (a, l) => a.localities?.includes(l.name),
-    entityKey: 'locality', pathPrefix: 'localities', locale: 'es'
+    entityKey: 'locality', pathPrefix: 'localities', locale: 'es',
+    includeEmpty: true
   })
 ];
 

@@ -28,7 +28,8 @@ export function generatePaginatedPages({
   filterFn,
   entityKey,
   pathPrefix = '',
-  locale
+  locale,
+  includeEmpty = false
 }) {
   const pages = [];
 
@@ -37,9 +38,9 @@ export function generatePaginatedPages({
       .filter(article => filterFn(article, entity))
       .sort((a, b) => new Date(b.published_at) - new Date(a.published_at));
 
-    if (filteredArticles.length === 0) continue;
+    if (filteredArticles.length === 0 && !includeEmpty) continue;
 
-    const totalPages = Math.ceil(filteredArticles.length / PAGE_SIZE);
+    const totalPages = Math.max(1, Math.ceil(filteredArticles.length / PAGE_SIZE));
 
     // Build base URL once per entity. Skip empty parts.
     const baseUrl = [locale, pathPrefix, entity?.slug].filter(Boolean).join('/');
