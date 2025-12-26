@@ -198,11 +198,42 @@ a:hover {
 .header.header--faded {
   background-color: var(--color-primary);
   opacity: 0;
+  pointer-events: none;
+}
+
+/* Show header on hover even if faded */
+.header:hover {
+  background-color: var(--color-primary);
+  opacity: 1 !important;
+  pointer-events: auto !important;
 }
 
 .header.header--faded:hover {
   background-color: var(--color-primary);
   opacity: 1;
+}
+
+/* Article pages: hide header by default on large screens, show on hover */
+@media (min-width: 1280px) {
+  body.article-page .header {
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+
+  /* Create an invisible hover zone at the top */
+  body.article-page .header::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    z-index: -1;
+  }
+
+  body.article-page .header:hover {
+    opacity: 1;
+  }
 }
 
 .header-container {
@@ -398,6 +429,7 @@ a:hover {
 @media (min-width: 1280px) {
   .article-body {
     color: #ddd;
+    margin-bottom: 0;
   }
 }
 
