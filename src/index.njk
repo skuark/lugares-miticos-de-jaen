@@ -8,11 +8,13 @@ eleventyComputed:
   title: "{{ i18n[indexPage.locale].siteTitle }}"
   permalink: "{{ indexPage.locale }}/index.html"
   locale: "{{ indexPage.locale }}"
+bodyClass: "home-page"
+includeLeaflet: true
 ---
 
 
-<div class="home-section">
-  <h2 class="home-section-title">{{ i18n[indexPage.locale].home.discover }}</h2>
+<div class="categories-section">
+  <h2 class="categories-section-title">{{ i18n[indexPage.locale].home.discover }}</h2>
 
   <div class="article-grid">
     {%- for category in categories_list[indexPage.locale] -%}
@@ -28,6 +30,24 @@ eleventyComputed:
       </article>
     {%- endfor -%}
   </div>
+</div>
 
-  <div class="home-section-separator"></div>
+<div class="localities-section">
+  <h2 class="localities-title">{{ i18n[indexPage.locale].home.exploreLocalities }}</h2>
+
+  <div class="localities-container">
+    <ul class="localities-list">
+      {%- for locality in localities_list -%}
+        <li class="locality-item">
+          <a href="/{{ locale }}/localities/{{ locality.slug }}"
+             class="locality-link"
+             data-locality-id="{{ locality.id }}">{{ locality.name }}{% if locality.articleCount %} ({{ locality.articleCount }}){% endif %}</a>
+        </li>
+      {%- endfor -%}
+    </ul>
+  </div>
+
+  <div class="localities-map-container">
+    <div id="localities-map" class="localities-map"></div>
+  </div>
 </div>

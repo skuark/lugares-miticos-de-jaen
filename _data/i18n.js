@@ -4,7 +4,8 @@ export default {
     categoriesLabel: "Categories",
     localitiesLabel: "Localities",
     home: {
-      discover: "Discover the province of Jaén"
+      discover: "Discover the province of Jaén",
+      exploreLocalities: "Explore the 97 municipalities of the province"
     },
     nav: {
       home: "Home",
@@ -22,7 +23,8 @@ export default {
     categoriesLabel: "Categorías",
     localitiesLabel: "Localidades",
     home: {
-      discover: "Descubre la provincia de Jaén"
+      discover: "Descubre la provincia de Jaén",
+      exploreLocalities: "Recorre los 97 municipios de la provincia"
     },
     nav: {
       home: "Inicio",

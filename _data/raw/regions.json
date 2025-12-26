@@ -4,70 +4,87 @@
     "slug": "area-metropolitana-de-jaen",
     "localities": [
       {
+        "id": 1,
         "name": "Fuensanta de Martos",
         "slug": "fuensanta-de-martos"
       },
       {
+        "id": 2,
         "name": "Fuerte del Rey",
         "slug": "fuerte-del-rey"
       },
       {
+        "id": 3,
         "name": "Higuera de Calatrava",
         "slug": "higuera-de-calatrava"
       },
       {
+        "id": 4,
         "name": "Jaén",
         "slug": "jaen"
       },
       {
+        "id": 5,
         "name": "Jamilena",
         "slug": "jamilena"
       },
       {
+        "id": 6,
         "name": "La Guardia de Jaén",
         "slug": "la-guardia-de-jaen"
       },
       {
+        "id": 7,
         "name": "Los Villares",
         "slug": "los-villares"
       },
       {
+        "id": 8,
         "name": "Mancha Real",
         "slug": "mancha-real"
       },
       {
+        "id": 9,
         "name": "Martos",
         "slug": "martos"
       },
       {
+        "id": 10,
         "name": "Mengíbar",
         "slug": "mengibar"
       },
       {
+        "id": 11,
         "name": "Porcuna",
         "slug": "porcuna"
       },
       {
+        "id": 12,
         "name": "Santiago de Calatrava",
         "slug": "santiago-de-calatrava"
       },
       {
+        "id": 13,
         "name": "Torre del Campo",
         "slug": "torre-del-campo"
       },
       {
+        "id": 14,
         "name": "Torreblascopedro",
         "slug": "torreblascopedro"
       },
       {
+        "id": 15,
         "name": "Torredonjimeno",
         "slug": "torredonjimeno"
       },
       {
+        "id": 16,
         "name": "Villardompardo",
         "slug": "villardompardo"
       },
       {
+        "id": 17,
         "name": "Villatorres",
         "slug": "villatorres"
       }
@@ -78,38 +95,47 @@
     "slug": "alto-guadalquivir",
     "localities": [
       {
+        "id": 18,
         "name": "Cazorla",
         "slug": "cazorla"
       },
       {
+        "id": 19,
         "name": "Chilluévar",
         "slug": "chilluevar"
       },
       {
+        "id": 20,
         "name": "Hinojares",
         "slug": "hinojares"
       },
       {
+        "id": 21,
         "name": "Huesa",
         "slug": "huesa"
       },
       {
+        "id": 22,
         "name": "La Iruela",
         "slug": "la-iruela"
       },
       {
+        "id": 23,
         "name": "Peal de Becerro",
         "slug": "peal-de-becerro"
       },
       {
+        "id": 24,
         "name": "Pozo Alcón",
         "slug": "pozo-alcon"
       },
       {
+        "id": 25,
         "name": "Quesada",
         "slug": "quesada"
       },
       {
+        "id": 26,
         "name": "Santo Tomé",
         "slug": "santo-tome"
       }
@@ -120,42 +146,52 @@
     "slug": "campina",
     "localities": [
       {
+        "id": 27,
         "name": "Andújar",
         "slug": "andujar"
       },
       {
+        "id": 28,
         "name": "Arjona",
         "slug": "arjona"
       },
       {
+        "id": 29,
         "name": "Arjonilla",
         "slug": "arjonilla"
       },
       {
+        "id": 30,
         "name": "Cazalilla",
         "slug": "cazalilla"
       },
       {
+        "id": 31,
         "name": "Escañuela",
         "slug": "escanuela"
       },
       {
+        "id": 32,
         "name": "Espelúy",
         "slug": "espeluy"
       },
       {
+        "id": 33,
         "name": "Lahiguera",
         "slug": "lahiguera"
       },
       {
+        "id": 34,
         "name": "Lopera",
         "slug": "lopera"
       },
       {
+        "id": 35,
         "name": "Marmolejo",
         "slug": "marmolejo"
       },
       {
+        "id": 36,
         "name": "Villanueva de la Reina",
         "slug": "villanueva-de-la-reina"
       }
@@ -166,30 +202,37 @@
     "slug": "el-condado",
     "localities": [
       {
+        "id": 37,
         "name": "Arquillos",
         "slug": "arquillos"
       },
       {
+        "id": 38,
         "name": "Castellar",
         "slug": "castellar"
       },
       {
+        "id": 39,
         "name": "Chiclana de Segura",
         "slug": "chiclana-de-segura"
       },
       {
+        "id": 40,
         "name": "Montizón",
         "slug": "montizon"
       },
       {
+        "id": 41,
         "name": "Navas de San Juan",
         "slug": "navas-de-san-juan"
       },
       {
+        "id": 42,
         "name": "Santisteban del Puerto",
         "slug": "santisteban-del-puerto"
       },
       {
+        "id": 43,
         "name": "Vilches",
         "slug": "vilches"
       }
@@ -200,54 +243,67 @@
     "slug": "la-loma-y-las-villas",
     "localities": [
       {
+        "id": 44,
         "name": "Úbeda",
         "slug": "ubeda"
       },
       {
+        "id": 45,
         "name": "Baeza",
         "slug": "baeza"
       },
       {
+        "id": 46,
         "name": "Begíjar",
         "slug": "begijar"
       },
       {
+        "id": 47,
         "name": "Canena",
         "slug": "canena"
       },
       {
+        "id": 48,
         "name": "Ibros",
         "slug": "ibros"
       },
       {
+        "id": 49,
         "name": "Iznatoraf",
         "slug": "iznatoraf"
       },
       {
+        "id": 50,
         "name": "Lupión",
         "slug": "lupion"
       },
       {
+        "id": 51,
         "name": "Rus",
         "slug": "rus"
       },
       {
+        "id": 52,
         "name": "Sabiote",
         "slug": "sabiote"
       },
       {
+        "id": 53,
         "name": "Sorihuela del Guadalimar",
         "slug": "sorihuela-del-guadalimar"
       },
       {
+        "id": 54,
         "name": "Torreperogil",
         "slug": "torreperogil"
       },
       {
+        "id": 55,
         "name": "Villacarrillo",
         "slug": "villacarrillo"
       },
       {
+        "id": 56,
         "name": "Villanueva del Arzobispo",
         "slug": "villanueva-del-arzobispo"
       }
@@ -258,54 +314,67 @@
     "slug": "sierra-de-segura",
     "localities": [
       {
+        "id": 57,
         "name": "Arroyo del Ojanco",
         "slug": "arroyo-del-ojanco"
       },
       {
+        "id": 58,
         "name": "Beas de Segura",
         "slug": "beas-de-segura"
       },
       {
+        "id": 59,
         "name": "Benatae",
         "slug": "benatae"
       },
       {
+        "id": 60,
         "name": "Génave",
         "slug": "genave"
       },
       {
+        "id": 61,
         "name": "Hornos",
         "slug": "hornos"
       },
       {
+        "id": 62,
         "name": "La Puerta de Segura",
         "slug": "la-puerta-de-segura"
       },
       {
+        "id": 63,
         "name": "Orcera",
         "slug": "orcera"
       },
       {
+        "id": 64,
         "name": "Puente de Génave",
         "slug": "puente-de-genave"
       },
       {
+        "id": 65,
         "name": "Santiago-Pontones",
         "slug": "santiago-pontones"
       },
       {
+        "id": 66,
         "name": "Segura de la Sierra",
         "slug": "segura-de-la-sierra"
       },
       {
+        "id": 67,
         "name": "Siles",
         "slug": "siles"
       },
       {
+        "id": 68,
         "name": "Torres de Albánchez",
         "slug": "torres-de-albanchez"
       },
       {
+        "id": 69,
         "name": "Villarrodrigo",
         "slug": "villarrodrigo"
       }
@@ -316,58 +385,72 @@
     "slug": "sierra-magina",
     "localities": [
       {
+        "id": 70,
         "name": "Albanchez de Mágina",
         "slug": "albanchez-de-magina"
       },
       {
+        "id": 71,
         "name": "Bélmez de la Moraleda",
         "slug": "belmez-de-la-moraleda"
       },
       {
+        "id": 72,
         "name": "Bedmar y Garcíez",
         "slug": "bedmar-y-garciez"
       },
       {
+        "id": 73,
         "name": "Cárcheles",
         "slug": "carcheles"
       },
       {
+        "id": 74,
         "name": "Cabra del Santo Cristo",
         "slug": "cabra-del-santo-cristo"
       },
       {
+        "id": 75,
         "name": "Cambil",
         "slug": "cambil"
       },
       {
+        "id": 76,
         "name": "Campillo de Arenas",
         "slug": "campillo-de-arenas"
       },
       {
+        "id": 77,
         "name": "Huelma",
         "slug": "huelma"
       },
       {
+        "id": 78,
         "name": "Jódar",
         "slug": "jodar"
       },
       {
+        "id": 79,
         "name": "Jimena",
         "slug": "jimena"
       },
       {
+        "id": 80,
         "name": "Larva",
         "slug": "larva"
       },
       {
+        "id": 81,
         "name": "Noalejo",
         "slug": "noalejo"
       },
       {
+        "id": 82,
         "name": "Pegalajar",
         "slug": "pegalajar"
       },
       {
+        "id": 83,
         "name": "Torres",
         "slug": "torres"
       }
@@ -378,38 +461,47 @@
     "slug": "sierra-norte",
     "localities": [
       {
+        "id": 84,
         "name": "Aldeaquemada",
         "slug": "aldeaquemada"
       },
       {
+        "id": 85,
         "name": "Baños de la Encina",
         "slug": "banos-de-la-encina"
       },
       {
+        "id": 86,
         "name": "Bailén",
         "slug": "bailen"
       },
       {
+        "id": 87,
         "name": "Carboneros",
         "slug": "carboneros"
       },
       {
+        "id": 88,
         "name": "Guarromán",
         "slug": "guarroman"
       },
       {
+        "id": 89,
         "name": "Jabalquinto",
         "slug": "jabalquinto"
       },
       {
+        "id": 90,
         "name": "La Carolina",
         "slug": "la-carolina"
       },
       {
+        "id": 91,
         "name": "Linares",
         "slug": "linares"
       },
       {
+        "id": 92,
         "name": "Santa Elena",
         "slug": "santa-elena"
       }
@@ -420,22 +512,27 @@
     "slug": "sierra-sur",
     "localities": [
       {
+        "id": 93,
         "name": "Alcalá la Real",
         "slug": "alcala-la-real"
       },
       {
+        "id": 94,
         "name": "Alcaudete",
         "slug": "alcaudete"
       },
       {
+        "id": 95,
         "name": "Castillo de Locubín",
         "slug": "castillo-de-locubin"
       },
       {
+        "id": 96,
         "name": "Frailes",
         "slug": "frailes"
       },
       {
+        "id": 97,
         "name": "Valdepeñas de Jaén",
         "slug": "valdepenas-de-jaen"
       }
